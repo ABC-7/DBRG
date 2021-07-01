@@ -1,0 +1,7 @@
+inReq([inComp(cond,'the NoSailing requests','[True]',equal,no,1),inComp(act,'the sailing inhibitor','[True]',equals,no,1)],['','','','',''],"- , , if the NoSailing requests equals[True]   , the sailing inhibitor equals [True]   , ."). 
+
+inReq([inComp(cond,'the vehicle speed setpoint','[True]',equals,no,1),inComp(act,'the NoSailing requests','[True]',equal,no,1)],['','','','',''],"- , , if the vehicle speed setpoint equals [True]   , the NoSailing requests equal [True]   , ."). 
+
+inReq([inComp(cond,'the sailing inhibitor','[True]',equals,no,1),inComp(act,'the vehicle speed setpoint','[True]',equals,no,1)],['','','','',''],"- , , if the sailing inhibitor equals [True]   , the vehicle speed setpoint equals [True]   , ."). 
+
+inReq([inComp(cond,'the steering wheel angle','[True]',equals,no,1),inComp(act,'the NoSailing requests','[True]',equal,no,1)],['','','','',''],"- , , if the steering wheel angle equals [True]   , the NoSailing requests equal [True]   , ."). 

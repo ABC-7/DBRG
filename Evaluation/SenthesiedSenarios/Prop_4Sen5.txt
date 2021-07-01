@@ -1,0 +1,5 @@
+inReq([inComp(cond,'the vehicle speed setpoint','[True]',equals,no,1),inComp(act,'the brake fault state','[True]',equals,no,1)],['','','','',''],"- , , if the vehicle speed setpoint equals [True]   , the brake fault state equals [True]   , ."). 
+
+inReq([inComp(cond,'the IDC inhibitor','[True]',equals,no,1),inComp(act,'the vehicle speed setpoint','[True]',equals,no,1)],['','','','',''],"- , , if the IDC inhibitor equals [True]   , the vehicle speed setpoint equals [True]   , ."). 
+
+inReq([inComp(cond,'the brake fault state','[True]',equals,no,1),inComp(act,'the IDC inhibitor','[True]',equals,no,1)],['','','','',''],"- , , if the brake fault state equals [True]   , the IDC inhibitor equals [True]   , ."). 

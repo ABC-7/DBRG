@@ -1,0 +1,5 @@
+inReq([inComp(cond,'the LSC','[True]',equals,no,1),inComp(act,'the standstill request flag','[True]',equals,no,1)],['','','','',''],"- , , if the LSC equals [True]   , the standstill request flag equals [True]   , ."). 
+
+inReq([inComp(cond,'the vehicle speed quality factor','[True]',equals,no,1),inComp(act,'the LSC','[True]',equals,no,1)],['','','','',''],"- , , if the vehicle speed quality factor equals [True]   , the LSC equals [True]   , ."). 
+
+inReq([inComp(cond,'the standstill request flag','[True]',equals,no,1),inComp(act,'the vehicle speed quality factor','[True]',equals,no,1)],['','','','',''],"- , , if the standstill request flag equals [True]   , the vehicle speed quality factor equals [True]   , ."). 

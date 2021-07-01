@@ -1,0 +1,3 @@
+inReq([inComp(cond,'the defined position','[True]',equals,no,1),inComp(act,'the sailing request','[True]',equals,no,1)],['','','','',''],"- , , if the defined position equals [True]   , the sailing request equals [True]   , ."). 
+
+inReq([inComp(cond,'the defined position','[True]',equals,no,1),inComp(act,'the transmission error','[True]',equals,no,1)],['','','','',''],"- , , if the defined position equals [True]   , the transmission error equals [True]   , ."). 

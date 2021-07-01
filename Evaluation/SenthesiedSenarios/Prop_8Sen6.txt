@@ -1,0 +1,5 @@
+inReq([inComp(cond,'the brake pedal','[True]',equals,no,1),inComp(act,'the standstill request flag','[True]',equals,no,1)],['','','','',''],"- , , if the brake pedal equals [True]   , the standstill request flag equals [True]   , ."). 
+
+inReq([inComp(act,'the brake pedal','[True]',equals,no,1)],['','','','',''],"- , , , the brake pedal equals [True]   , ."). 
+
+inReq([inComp(cond,'the engine error','[True]',equals,no,1),inComp(act,'the vehicle speed quality factor','[True]',equals,no,1)],['','','','',''],"- , , if the engine error equals [True]   , the vehicle speed quality factor equals [True]   , ."). 

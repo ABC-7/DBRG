@@ -1,0 +1,5 @@
+inReq([inComp(cond,'the NoSailing requests','[True]',equals,no,1),inComp(act,'the engine error','[True]',equals,no,1)],['','','','',''],"- , , if the NoSailing requests equal [True]   , the engine error equal [True]   , ."). 
+
+inReq([inComp(cond,'the sailing termination','[True]',equals,no,1),inComp(act,'the NoSailing requests','[True]',equal,no,1)],['','','','',''],"- , , if the sailing termination equals [True]   , the NoSailing requests equal [True]   , ."). 
+
+inReq([inComp(cond,'the engine error','[True]',equals,no,1),inComp(act,'the sailing termination','[True]',equals,no,1)],['','','','',''],"- , , if the engine error equals [True]   , the sailing termination equals [True]   , ."). 

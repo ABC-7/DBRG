@@ -1,0 +1,7 @@
+inReq([inComp(cond,'the brake fault state','[True]',equals,no,1),inComp(act,'the NoSailing requests','[True]',equal,no,1)],['','','','',''],"- , , if the brake fault state equals [True]   , the NoSailing requests equal [True]   , ."). 
+
+inReq([inComp(cond,'the IDC inhibitor','[True]',equals,no,1),inComp(act,'the brake fault state','[True]',equals,no,1)],['','','','',''],"- , , if the IDC inhibitor equals [True]   , the brake fault state equals [True]   , ."). 
+
+inReq([inComp(cond,'the NoSailing requests','[True]',equal,no,1),inComp(act,'the IDC inhibitor','[True]',equals,no,1)],['','','','',''],"- , , if the NoSailing requests equal [True]   , the IDC inhibitor equals [True]   , ."). 
+
+inReq([inComp(cond,'the sailing request','[True]',equals,no,1),inComp(act,'the brake fault state','[True]',equals,no,1)],['','','','',''],"- , , if the sailing request equals [True]   , the brake fault state equals [True]   , ."). 

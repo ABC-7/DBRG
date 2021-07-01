@@ -1,0 +1,5 @@
+inReq([inComp(cond,'the transmission error','[True]',equals,no,1),inComp(act,'the engine error','[True]',equals,no,1)],['','','','',''],"- , , if the transmission error equals [True]   , the engine error equals [True]   , ."). 
+
+inReq([inComp(act,'the transmission error','[True]',equals,no,1)],['','','','',''],"- , , , the transmission error equals [True]   , ."). 
+
+inReq([inComp(cond,'the NoSailing requests','[True]',equal,no,1),inComp(act,'the steering wheel angle','[True]',equals,no,1)],['','','','',''],"- , , if the NoSailing requests equal [True]   , the steering wheel angle equals [True]   , ."). 

@@ -1,0 +1,7 @@
+inReq([inComp(cond,'the brake pedal','[True]',equals,no,1),inComp(act,'the quality signal','[True]',equals,no,1)],['','','','',''],"- , , if the brake pedal equals [True]   , the quality signal equals [True]   , ."). 
+
+inReq([inComp(cond,'the steering wheel angle','[True]',equals,no,1),inComp(act,'the brake pedal','[True]',equals,no,1)],['','','','',''],"- , , if the steering wheel angle equals [True]   , the brake pedal equals [True]   , ."). 
+
+inReq([inComp(cond,'the quality signal','[True]',equals,no,1),inComp(act,'the steering wheel angle','[True]',equals,no,1)],['','','','',''],"- , , if the quality signal equals [True]   , the steering wheel angle equals [True]   , ."). 
+
+inReq([inComp(cond,'the sailing inhibitor','[True]',equals,no,1),inComp(act,'the brake pedal','[True]',equals,no,1)],['','','','',''],"- , , if the sailing inhibitor equals [True]   , the brake pedal equals [True]   , ."). 

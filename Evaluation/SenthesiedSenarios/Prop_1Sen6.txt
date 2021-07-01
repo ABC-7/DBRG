@@ -1,0 +1,2 @@
+inReq([inComp(cond,'the NoSailing requests','[True]',equal,no,1),inComp(act,'the sailing request','[True]',equals,no,1)],['','','','',''],"- , , if the NoSailing requests equal [True]   , the sailing request equals [True]   , ."). 
+inReq([inComp(cond,'the NoSailing requests','[True]',equal,no,1),inComp(act,'the vehicle speed setpoint','[True]',equals,no,1)],['','','','',''],"- , , if the NoSailing requests equal [True]   , the vehicle speed setpoint equals [True]   , ."). 

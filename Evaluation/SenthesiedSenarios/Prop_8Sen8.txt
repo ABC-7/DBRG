@@ -1,0 +1,5 @@
+inReq([inComp(cond,'the transmission error','[True]',equals,no,1),inComp(act,'the LSC','[True]',equals,no,1)],['','','','',''],"- , , if the transmission error equals [True]   , the LSC equals [True]   , ."). 
+
+inReq([inComp(act,'the transmission error','[True]',equals,no,1)],['','','','',''],"- , , , the transmission error equals [True]   , ."). 
+
+inReq([inComp(cond,'the vehicle speed quality factor','[True]',equals,no,1),inComp(act,'the NoSailing requests','[True]',equals,no,1)],['','','','',''],"- , , if the vehicle speed quality factor equals [True]   , the NoSailing requests equals [True]   , ."). 

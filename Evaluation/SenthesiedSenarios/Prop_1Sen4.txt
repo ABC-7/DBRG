@@ -1,0 +1,3 @@
+inReq([inComp(cond,'the LSC','[True]',equals,no,1),inComp(act,'the steering wheel angle','[True]',equals,no,1)],['','','','',''],"- , , if the LSC equals [True]   , the steering wheel angle equals [True]   , ."). 
+
+inReq([inComp(cond,'the LSC','[True]',equals,no,1),inComp(act,'the vehicle speed setpoint','[True]',equals,no,1)],['','','','',''],"- , , if the LSC equals [True]   , the vehicle speed setpoint equals [True]   , ."). 

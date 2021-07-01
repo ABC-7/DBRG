@@ -1,0 +1,3 @@
+inReq([inComp(cond,'the brake fault state','[False]',equals,no,1),inComp(cond,'the transmission error','[True]',equals,no,2),inComp(act,'the defined position','[True]',equals,no,1)],['','','( 1 or 2 )','',''],"- , , if the brake fault state equals [False]   , or if the transmission error equals [True]   , the defined position equals [True]   , ."). 
+
+inReq([inComp(cond,'the brake fault state','[False]',equals,no,1),inComp(act,'the defined position','[True]',equals,no,1)],['','','','',''],"- , , if the brake fault state equals [False]   , the defined position equals [True]   , ."). 

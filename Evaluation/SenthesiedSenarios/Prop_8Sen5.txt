@@ -1,0 +1,5 @@
+inReq([inComp(cond,'the sailing inhibitor','[True]',equals,no,1),inComp(act,'the sailing request','[True]',equals,no,1)],['','','','',''],"- , , if the sailing inhibitor equals [True]   , the sailing request equals [True]   , ."). 
+
+inReq([inComp(act,'the sailing inhibitor','[True]',equals,no,1)],['','','','',''],"- , , , the sailing inhibitor equals [True]   , ."). 
+
+inReq([inComp(cond,'the LSC','[True]',equals,no,1),inComp(act,'the defined position','[True]',equals,no,1)],['','','','',''],"- , , if the LSC equals [True]   , the defined position equals [True]   , ."). 

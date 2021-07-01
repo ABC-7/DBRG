@@ -1,0 +1,5 @@
+inReq([inComp(cond,'the LSC','[True]',equals,no,1),inComp(act,'the engine error','[True]',equals,no,1)],['','','','',''],"- , , if the LSC equals [True]   , the engine error equals [True]   , ."). 
+
+inReq([inComp(cond,'the brake pedal','[True]',equals,no,1),inComp(act,'the LSC','[True]',equals,no,1)],['','','','',''],"- , , if the brake pedal equals [True]   , the LSC equals [True]   , ."). 
+
+inReq([inComp(cond,'the engine error','[True]',equals,no,1),inComp(act,'the brake pedal','[True]',equals,no,1)],['','','','',''],"- , , if the engine error equals [True]   , the brake pedal equals [True]   , ."). 

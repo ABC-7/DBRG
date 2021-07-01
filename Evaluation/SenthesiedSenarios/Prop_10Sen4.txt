@@ -1,0 +1,7 @@
+inReq([inComp(cond,'the transmission error','[True]',equals,no,1),inComp(act,'the sailing inhibitor','[True]',equals,no,1)],['','','','',''],"- , , if the transmission error equals [True]   , the sailing inhibitor equals [True]   , ."). 
+
+inReq([inComp(cond,'the NoSailing requests','[True]',equal,no,1),inComp(act,'the transmission error','[True]',equals,no,1)],['','','','',''],"- , , if the NoSailing requests equal [True]   , the transmission error equals [True]   , ."). 
+
+inReq([inComp(cond,'the sailing inhibitor','[True]',equals,no,1),inComp(act,'the NoSailing request','[True]',equals,no,1)],['','','','',''],"- , , if the sailing inhibitor equals [True]   , the NoSailing requests equal [True]   , ."). 
+
+inReq([inComp(cond,'the IDC inhibitor','[True]',equals,no,1),inComp(act,'the transmission error','[True]',equals,no,1)],['','','','',''],"- , , if the IDC inhibitor equals [True]   , the transmission error equals [True]   , ."). 

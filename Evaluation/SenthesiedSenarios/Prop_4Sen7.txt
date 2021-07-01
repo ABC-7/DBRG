@@ -1,0 +1,5 @@
+inReq([inComp(cond,'the NoSailing requests','[True]',equal,no,1),inComp(act,'the IDC inhibitor','[True]',equals,no,1)],['','','','',''],"- , , if the NoSailing requests equal [True]   , the IDC inhibitor equals [True]   , ."). 
+
+inReq([inComp(cond,'the defined position','[True]',equals,no,1),inComp(act,'the NoSailing requests','[True]',equal,no,1)],['','','','',''],"- , , if the defined position equals [True]   , the NoSailing requests equal [True]   , ."). 
+
+inReq([inComp(cond,'the IDC inhibitor','[True]',equals,no,1),inComp(act,'the defined position','[True]',equals,no,1)],['','','','',''],"- , , if the IDC inhibitor equals [True]   , the defined position equals [True]   , ."). 
