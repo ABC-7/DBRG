@@ -1,0 +1,16 @@
+Mac prerequist steps:
+1- download swiple "swipl-7.7.20" , then add libs exist in folder "x86_64-darwin17.7.0" to "/Library/Java/Extension" on your mac
+2- open DBRG on Eclipse and run
+
+Sample single-level input
+-input description: inReq('R1', [[], [], CL, [comp('A1', 'Act', [ '', '', '','It', '', V1,[P1]], CompText)], []], ['','','','',''], Text)
+-Requirements Count: 2
+-Senarios Count: 3
+
+
+Sample Multi-level input
+-input description: 
+ inReq([inComp('cond', E1, V1, Rel1, 'no', 1), inComp('act', E2, V2, Rel1, 'no', 1)], ['','', '', '', ''], Req1_Text)
+ inReq([inComp('cond', E2, V2, Rel1, 'no', 1), inComp('act', E1, V1, Rel1, 'no', 1)], ['','','','',''] , Req2_Text)
+-Senarios Count: 2 
+ 
